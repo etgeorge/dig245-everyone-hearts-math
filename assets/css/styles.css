@@ -1,6 +1,16 @@
 
 /* css */
+#carton-base {
+  background-color: #0F0BCD;
+}
 
+#carton-middle {
+  transform: rotate(0.25turn);
+}
+
+#milk-text {
+  color: white;
+}
 
 #title{
     display: flex;
@@ -20,4 +30,7 @@
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+}
+#carton-top {
+  background-color: #0F0BCD;
 }
