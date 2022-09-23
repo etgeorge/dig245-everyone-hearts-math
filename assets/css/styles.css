@@ -1,16 +1,17 @@
 
 /* css */
-
-
-#title{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px;
+#carton-base {
+  background-color: #0F0BCD;
 }
 
-.left-side{
-    width: 50%;
-    height: 100%;
-    background-color: aliceblue;
-    border-right: 1px solid black;
+#carton-middle {
+  transform: rotate(0.25turn);
+}
+
+#milk-text {
+  color: white;
+}
+
+#carton-top {
+  background-color: #0F0BCD;
 }
