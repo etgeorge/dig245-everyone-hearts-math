@@ -2,9 +2,12 @@
 /* css */
 #carton-base {
   background-color: #0F0BCD;
+  color: white;
+  text-align: center;
+  font-size: 90px;
   position: relative;
   left: 227px;
-  top: -45px;
+  top: -33.5px;
   width: 244px;
   height: 432px;
 }
@@ -14,7 +17,7 @@
   transform: rotate(0.125turn);
   position: relative;
   left: 262.75px;
-  top: 40.134px;
+  top: 52.816px;
   width: 172.62px;
   height: 172.62px;
 }
