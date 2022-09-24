@@ -39,4 +39,9 @@
 }
 #carton-top {
   background-color: #0F0BCD;
+  position: relative;
+  left: 227px;
+  top: 23px;
+  width: 12px;
+  height: 45px;
 }
