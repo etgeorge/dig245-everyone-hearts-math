@@ -2,6 +2,8 @@
 /* css */
 #carton-base {
   background-color: #0F0BCD;
+  width: 244px;
+  height: 432px;
 }
 
 #carton-middle {
