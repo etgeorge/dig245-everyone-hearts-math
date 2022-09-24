@@ -2,11 +2,15 @@
 /* css */
 #carton-base {
   background-color: #0F0BCD;
+  position: relative;
+  left: 227px;
+  top: 175px;
   width: 244px;
   height: 432px;
 }
 
 #carton-middle {
+  background-color: #D9D9D9;
   transform: rotate(0.25turn);
 }
 
