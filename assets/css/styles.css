@@ -11,7 +11,12 @@
 
 #carton-middle {
   background-color: #D9D9D9;
-  transform: rotate(0.25turn);
+  transform: rotate(0.125turn);
+  position: relative;
+  left: 262.75px;
+  top: 40.134px;
+  width: 172.62px;
+  height: 172.62px;
 }
 
 #milk-text {
@@ -40,7 +45,7 @@
 #carton-top {
   background-color: #0F0BCD;
   position: relative;
-  left: 227px;
+  left: 343px;
   top: 23px;
   width: 12px;
   height: 45px;
