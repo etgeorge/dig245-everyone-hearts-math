@@ -29,3 +29,10 @@ $(".submit").click(function (e) {
     $(".output").html(str);
 
 });
+
+$(".check").click(function (e){
+  e.preventDefault();
+    let friend = $("#friend").val();
+    console.log(friend);
+    
+})
