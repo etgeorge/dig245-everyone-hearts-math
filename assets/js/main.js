@@ -4,7 +4,7 @@
 
 let yourMilk = "";
 
-$("form").leftSubmit(function(e) {
+$("form").submit(function(e) {
   e.preventDefault();
   yourMilk = ("#yourMilk").val();
 
