@@ -2,32 +2,13 @@
 /* javascript */
 // $("h1").hide();
 
-let username = ""
-let requiredUsername = "secret"
+let yourMilk = "";
 
-$(".submit").click(function (e) {
-    e.preventDefault();
-    username = $(".username").val();
-    console.log(username + " is username");
+$("form").submit(function(e) {
+  e.preventDefault();
+  yourMilk = ("#yourMilk").val;
 
-    let str = ""
-    if (username == requiredUsername) {
-        console.log("Success!");
-        str = `
-        <div class="alert alert-success" role="alert">
-            Welcome, compatriot ${username}
-        </div>
-        `
-    } else{
-        str=`
-        <div class="alert alert-danger" role="alert">
-            Invalid username. Try again?
-        </div>
-        `
-    }
-
-    $(".output").html(str);
-
+  console.log(yourMilk);
 });
 
 $(".check").click(function (e){

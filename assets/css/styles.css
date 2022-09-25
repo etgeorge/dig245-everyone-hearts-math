@@ -1,14 +1,25 @@
+
 /* css */
 #carton-base {
-    background-color: #0F0BCD;
+  background-color: #0F0BCD;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  position: relative;
+  left: 227px;
+  top: -33.5px;
+  width: 244px;
+  height: 432px;
 }
 
 #carton-middle {
-    transform: rotate(0.25turn);
-}
-
-#milk-text {
-    color: white;
+  background-color: #D9D9D9;
+  transform: rotate(0.125turn);
+  position: relative;
+  left: 262.75px;
+  top: 52.816px;
+  width: 172.62px;
+  height: 172.62px;
 }
 
 body {
@@ -19,13 +30,14 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
+    color: lightblue;
 }
 
 .left-side,
 .right-side {
     width: 50%;
     height: 100%;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 .left-side{
@@ -40,9 +52,17 @@ body {
 }
 
 #carton-top {
-    background-color: #0F0BCD;
+  background-color: #0F0BCD;
+  position: relative;
+  left: 343px;
+  top: 23px;
+  width: 12px;
+  height: 45px;
 }
 
+form{
+    margin-left: 10px;
+}
 .page {
     display: flex;
     justify-content: space-between;
