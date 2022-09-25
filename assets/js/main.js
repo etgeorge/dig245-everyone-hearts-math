@@ -6,7 +6,7 @@ let yourMilk = "";
 
 $("form").submit(function(e) {
   e.preventDefault();
-  yourMilk = ("#yourMilk").val();
+  yourMilk = ("#yourMilk").val;
 
   console.log(yourMilk);
 });
