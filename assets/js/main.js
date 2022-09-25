@@ -12,8 +12,13 @@ $("form").submit(function(e) {
 });
 
 $(".check").click(function (e){
-  e.preventDefault();
+  
+    let you = $("#yourMilk").val();
     let friend = $("#friend").val();
+    let value = you*friend;
+    console.log(you);
     console.log(friend);
+    $("#answer").text(`${you} x ${friend} = ${value} cartons`);
+    
     
 })
