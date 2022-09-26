@@ -4,7 +4,7 @@
 
 $(".answer").hide();
 
-let yourMilk = "";
+// let yourMilk = "";
 
 $("form").submit(function (e) {
     e.preventDefault();
@@ -14,7 +14,7 @@ $("form").submit(function (e) {
 
 $("#first").submit(function () {
     console.log("Submitted");
-})
+});
 $(".check").click(function () {
     $("#first").submit();
     let you = $("#yourMilk").val();
@@ -23,10 +23,10 @@ $(".check").click(function () {
 
     $("#response").text(`Your friend drank ${you} x ${friend} = ${value} carton(s) of milk.`);
 
-    let notValid = you.length === 0 || friend.length === 0 || you<0 || you>1 || friend<0 || friend >10
+    let notValid = you.length === 0 || friend.length === 0 || you<0 || you>1 || friend<0 || friend >10;
 
     if(you<0 || you>1 || you.length===0){
-        alert("Please make first field less than 1 and greater than 0")
+        alert("Please make first field less than 1 and greater than 0");
     }
     if (!notValid) {
         $(".answer").show();
@@ -34,6 +34,4 @@ $(".check").click(function () {
         $(".answer").hide();
 
     }
-})
-
-
+});
