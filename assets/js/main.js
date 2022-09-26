@@ -2,6 +2,8 @@
 /* javascript */
 // $("h1").hide();
 
+$("#answer").hide();
+
 let yourMilk = "";
 
 $("form").submit(function(e) {
@@ -11,14 +13,16 @@ $("form").submit(function(e) {
   console.log(yourMilk);
 });
 
-$(".check").click(function (e){
-  
+$(".check").click(function (){
+    $("#first").submit();
     let you = $("#yourMilk").val();
     let friend = $("#friend").val();
     let value = you*friend;
-    console.log(you);
-    console.log(friend);
+    
     $("#answer").text(`${you} x ${friend} = ${value} cartons`);
-    
-    
+    $("#answer").show();
+})
+
+$("#first").submit(function (){
+    console.log("form submitted");
 })

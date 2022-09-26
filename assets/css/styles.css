@@ -37,7 +37,7 @@ body {
 .right-side {
     width: 50%;
     height: 100%;
-    background-color: white;
+    
 }
 
 .left-side{
@@ -49,6 +49,7 @@ body {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    background-color: white;
 }
 
 #carton-top {
@@ -66,6 +67,7 @@ form{
 .page {
     display: flex;
     justify-content: space-between;
+    z-index: 10s;
 }
 
 .form-control {
@@ -83,7 +85,7 @@ form{
 .lower-head{
     position: relative;
     clip-path: polygon(100% 21%, 44% 48%, 100% 74%);
-    background-color: aliceblue;
+    background-color: white;
     right: 101px;
     transform: rotate(180deg);
 }

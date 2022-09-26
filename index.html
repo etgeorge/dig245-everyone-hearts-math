@@ -22,9 +22,11 @@
     <div class="page">
         <div class="left-side">
             <h3 class="question">You drank almost all of your milk at lunch... How much milk did you drink?</h3>
-            <form>
-                <input class="form-control" type="text" id="yourMilk">
-              </form>
+            <form id="first" action="">
+                <input class="form-control" type="number" id="yourMilk" min="1" max="10" required></input>
+                <button type="submit" class="check btn btn-primary" id="first">Lock in answer</button>
+
+            </form>
             <div class="carton">
                 <div id="carton-top"></div>
                 <div id="carton-middle"></div>
@@ -34,11 +36,10 @@
         <div class="right-side">
             <h3 class="question">Your friend loves milk... How much more milk did he drink compared to you?</h3>
             <div>
-                <form>
+                <form id="second">
                     <input id="friend" type="number" class="form-control" min="1" max="10" required></input>
-                    <button type="submit" class="check">Check answer</button>
+                    <button type="submit" class="check btn btn-primary">Check answer</button>
                 </form>
-                <p id="answer">Text</p>
             </div>
             <div class="friend">
                 <div class="head">
@@ -51,6 +52,8 @@
                     <div class="right-arm"></div>
                 </div>
             </div>
+            <div class="question" id="answer"></div>
+
         </div> 
     </div>
     
