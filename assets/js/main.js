@@ -21,7 +21,7 @@ $(".check").click(function () {
     let friend = $("#friend").val();
     let value = you * friend;
 
-    $("#response").text(`${you} x ${friend} = ${value} carton(s)`);
+    $("#response").text(`Your friend drank ${you} x ${friend} = ${value} carton(s) of milk.`);
 
     let notValid = you.length === 0 || friend.length === 0 || you<0 || you>1 || friend<0 || friend >10
 
