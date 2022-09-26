@@ -30,7 +30,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
-    color: lightblue;
 }
 
 .left-side,
