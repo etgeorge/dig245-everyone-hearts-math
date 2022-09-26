@@ -2,6 +2,7 @@
 /* javascript */
 // $("h1").hide();
 
+console.log("Figma designs: https://www.figma.com/file/sENgH2wmx3A22VeNKnFKfL/Everyone-Loves-Math?node-id=0%3A1");
 $(".answer").hide();
 
 let yourMilk = "";
@@ -12,11 +13,9 @@ $("form").submit(function (e) {
 });
 
 
-$("#first").submit(function () {
-    console.log("Submitted");
-})
+
 $(".check").click(function () {
-    $("#first").submit();
+    
     let you = $("#yourMilk").val();
     let friend = $("#friend").val();
     let value = you * friend;
